@@ -69,9 +69,21 @@ public class CalcFormController {
     @FXML
     private Button bt0;
 
-    private double anweser = 0.0;
+    private double answer = 0.0;
+    private ButtonListener buttonListener;
 
+    @FXML
     public void initialize(){
-        lblAnswer.setText(String.format("%.2f",anweser));
+        Calculator calculator = new Calculator();
+        lblAnswer.setText(String.format("%.2f",answer));
+        buttonListener = new ButtonListener(txtEquation);
+
     }
+    @FXML
+    private void handleButtonClick(javafx.event.ActionEvent event) {
+        Button clickedButton = (Button) event.getSource();
+        String buttonText = clickedButton.getText();
+        buttonListener.onButtonClicked(buttonText);
+    }
+
 }
