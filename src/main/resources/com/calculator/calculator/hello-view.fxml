@@ -21,23 +21,23 @@
          </font>
       </Label>
       <TextField fx:id="txtEquation" layoutX="15.0" layoutY="149.0" prefHeight="29.0" prefWidth="422.0" />
-      <Button fx:id="bt7" layoutX="14.0" layoutY="196.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="7" onAction="#handleButtonClick"/>
-      <Button fx:id="bt4" layoutX="14.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="4" onAction="#handleButtonClick"/>
-      <Button fx:id="bt1" layoutX="14.0" layoutY="341.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="1" onAction="#handleButtonClick"/>
-      <Button fx:id="bt0" layoutX="14.0" layoutY="412.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="0" onAction="#handleButtonClick"/>
-      <Button fx:id="btComma" layoutX="91.0" layoutY="413.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="," onAction="#handleButtonClick"/>
-      <Button fx:id="bt2" layoutX="91.0" layoutY="342.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="2" onAction="#handleButtonClick"/>
-      <Button fx:id="bt5" layoutX="91.0" layoutY="270.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="5" onAction="#handleButtonClick"/>
-      <Button fx:id="bt8" layoutX="91.0" layoutY="197.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="8" onAction="#handleButtonClick"/>
-      <Button fx:id="btMultiply" layoutX="244.0" layoutY="198.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="X" onAction="#handleButtonClick"/>
-      <Button fx:id="btDivide" layoutX="244.0" layoutY="271.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="÷" onAction="#handleButtonClick"/>
-      <Button fx:id="btMinus" layoutX="244.0" layoutY="343.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="-" onAction="#handleButtonClick"/>
-      <Button fx:id="btPlus" layoutX="244.0" layoutY="414.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="+" onAction="#handleButtonClick"/>
-      <Button fx:id="btPercent" layoutX="167.0" layoutY="413.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="\%" onAction="#handleButtonClick"/>
-      <Button fx:id="bt3" layoutX="167.0" layoutY="342.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="3" onAction="#handleButtonClick"/>
-      <Button fx:id="bt6" layoutX="167.0" layoutY="270.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="6" onAction="#handleButtonClick"/>
-      <Button fx:id="bt9" layoutX="167.0" layoutY="197.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="9" onAction="#handleButtonClick"/>
-      <Button fx:id="btEqual" layoutX="317.0" layoutY="270.0" mnemonicParsing="false" prefHeight="207.0" prefWidth="120.0" text="=" onAction="#handleButtonClick"/>
-      <Button fx:id="btClear" layoutX="317.0" layoutY="198.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="120.0" text="AC" onAction="#handleButtonClick"/>
+      <Button fx:id="bt7" layoutX="14.0" layoutY="196.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="7" />
+      <Button fx:id="bt4" layoutX="14.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="4" />
+      <Button fx:id="bt1" layoutX="14.0" layoutY="341.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="1" />
+      <Button fx:id="bt0" layoutX="14.0" layoutY="412.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="0" />
+      <Button fx:id="btComma" layoutX="91.0" layoutY="413.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="," />
+      <Button fx:id="bt2" layoutX="91.0" layoutY="342.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="2" />
+      <Button fx:id="bt5" layoutX="91.0" layoutY="270.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="5" />
+      <Button fx:id="bt8" layoutX="91.0" layoutY="197.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="8" />
+      <Button fx:id="btMultiply" layoutX="244.0" layoutY="198.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="X" />
+      <Button fx:id="btDivide" layoutX="244.0" layoutY="271.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="÷" />
+      <Button fx:id="btMinus" layoutX="244.0" layoutY="343.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="-" />
+      <Button fx:id="btPlus" layoutX="244.0" layoutY="414.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="+" />
+      <Button fx:id="btPercent" layoutX="167.0" layoutY="413.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="\%" />
+      <Button fx:id="bt3" layoutX="167.0" layoutY="342.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="3" />
+      <Button fx:id="bt6" layoutX="167.0" layoutY="270.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="6" />
+      <Button fx:id="bt9" layoutX="167.0" layoutY="197.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="66.0" text="9" />
+      <Button fx:id="btEqual" layoutX="317.0" layoutY="270.0" mnemonicParsing="false" prefHeight="207.0" prefWidth="120.0" text="=" />
+      <Button fx:id="btClear" layoutX="317.0" layoutY="198.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="120.0" text="AC" />
    </children>
 </Pane>
