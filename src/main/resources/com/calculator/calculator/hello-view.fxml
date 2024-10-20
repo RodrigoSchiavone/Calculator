@@ -12,12 +12,12 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.calculator.calculator.CalcFormController">
    <children>
-      <Label fx:id="lblAnswer" alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="15.0" prefHeight="115.0" prefWidth="422.0">
+      <Label fx:id="lblAnswer" alignment="BOTTOM_RIGHT" layoutX="15.0" layoutY="12.0" prefHeight="131.0" prefWidth="422.0">
          <padding>
             <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
          </padding>
          <font>
-            <Font size="29.0" />
+            <Font size="20.0" />
          </font>
       </Label>
       <TextField fx:id="txtEquation" layoutX="15.0" layoutY="149.0" prefHeight="29.0" prefWidth="422.0" />

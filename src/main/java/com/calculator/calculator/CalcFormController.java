@@ -22,16 +22,16 @@ public class CalcFormController {
     @FXML
     private Label lblAnswer;
 
-    private double answer = 0.0;
-
+    private DisplayView displayView;
 
 
     @FXML
     public void initialize(){
         Calculator calculator = new Calculator();
-        lblAnswer.setText(String.format("%.2f",answer));
         EquationInputManager equationInputManager = new EquationInputManager(txtEquation);
         ButtonListener buttonListener = new ButtonListener(equationInputManager);
+        displayView = new DisplayView(lblAnswer);
+
 
         Button[] buttons = {bt0, bt1, bt2, bt3, bt4, bt5, bt6, bt7, bt8, bt9,
                 btPlus, btMinus, btMultiply, btDivide, btEqual,
@@ -41,6 +41,19 @@ public class CalcFormController {
             button.setFocusTraversable(false);// Evita que o botão receba foco
             button.setOnAction((EventHandler<ActionEvent>) buttonListener);
         }
+
+        displayView.setDisplay("10+5=15");
+        displayView.setDisplay("10+5=16");
+        displayView.setDisplay("10+5=17");
+        displayView.setDisplay("10+5=18");
+        displayView.setDisplay("10+5=19");
+        displayView.setDisplay("10+5=20");
+        displayView.setDisplay("10+5=21");
+        displayView.setDisplay("10+5=22");
+        displayView.setDisplay("10+5=23");
+        displayView.clearDisplay();
+
+
     }
 
 
